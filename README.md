@@ -5,7 +5,7 @@ Simple Container System in Rust 📦🦀
 
 A minimalistic container system built with Rust. This project provides a basic implementation of container features, demonstrating how applications can be isolated and run in a separate environment. Perfect for those seeking to understand the foundational principles behind container technology.
 
-You can read the step-by-step guide on this Article: https://medium.com/@luishrsoares/implementing-an-application-container-in-rust-3bdde7531ae0
+You can read the step-by-step guide on this Article: [Impĺementing an Application Container in Rust](https://medium.com/@luishrsoares/implementing-an-application-container-in-rust-3bdde7531ae0)
 
 Features 🌟
 
