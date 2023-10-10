@@ -43,14 +43,34 @@ Using the sample containerclient for testing the Container deployment:
 
    CD into the containerclient project:
 
-    cd build --release
-
+    cd containerclient
    
-   
-   Build the project:
 
-    cargo build --release
-  
+   Install the MUSL Target:
+     
+     rustup target add x86_64-unknown-linux-musl
+   
+   Build the project manually using the :
+
+     cargo build --release --target x86_64-unknown-linux-musl  
+
+   This will produce a statically linked binary in the target/x86_64-unknown-linux-musl/release/ directory.  
+
+Deploying and Running ContainerClient in Our Simple Container
+
+   Deploying the ContainerClient Application:
+
+    sudo ./rustcontainer deploy ./containerclient
+
+   Running the ContainerClient Application Inside the Container:
+
+    sudo ./rustcontainer run ./containerclient
+
+If all went well, you should see:
+
+    Hello from the container!
+
+And that's it! With these simple steps, you've deployed and executed your containerclient application inside our minimalist container environment. Enjoy experimenting with it!
 
 
 
