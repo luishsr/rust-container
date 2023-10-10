@@ -1,4 +1,4 @@
-# rust-conatainer
+# rust-container
 A minimalist Application Container in Rust for learning purposes
 
 Simple Container System in Rust 📦🦀
